@@ -1,0 +1,110 @@
+{
+  "AUDIT_LOGS": {
+    "ui": {
+      "critical": {
+        "job_link": "http://jenkins-csqa-000-staging.mist.pvt:8080/job/CLOUD_QA_POD_PLATFORM/job/AUDITLOGS_REGRESSION/job/AUDITLOGS_UI_CRITICAL/",
+        "job_name": "AUDITLOGS_UI_CRITICAL",
+        "last_duration": 30,
+        "last_executed": "epoch_time",
+        "test_status": {
+          "test_case_1": {
+            "name": "test_auditlogs_ui_critical_case_1",
+            "status": "passed"
+          },
+          "test_case_2": {
+            "name": "test_auditlogs_ui_critical_case_2",
+            "status": "failed"
+          }
+        }
+      },
+      "high": {
+        "job_link": "http://jenkins-csqa-000-staging.mist.pvt:8080/job/CLOUD_QA_POD_PLATFORM/job/AUDITLOGS_REGRESSION/job/AUDITLOGS_UI_HIGH/",
+        "job_name": "AUDITLOGS_UI_HIGH",
+        "last_executed": "epoch_time",
+        "last_duration": 30,
+        "test_status": {
+          "test_case_1": {
+            "name": "test_auditlogs_ui_high_case_1",
+            "status": "passed"
+          },
+          "test_case_2": {
+            "name": "test_auditlogs_ui_high_case_2",
+            "status": "failed"
+          }
+        }
+      }
+    },
+    "api": {
+      "critical": {
+        "job_link": "http://jenkins-csqa-000-staging.mist.pvt:8080/job/CLOUD_QA_POD_PLATFORM/job/AUDITLOGS_REGRESSION/job/AUDITLOGS_API_CRITICAL/",
+        "job_name": "AUDITLOGS_API_CRITICAL",
+        "last_executed": "epoch_time",
+        "last_duration": "",
+        "test_status": {
+          "test_case_1": {
+            "name": "test_auditlogs_api_critical_case_1",
+            "status": "passed"
+          },
+          "test_case_2": {
+            "name": "test_auditlogs_api_critical_case_2",
+            "status": "failed"
+          }
+        }
+      }
+    }
+  },
+  "VARIABLES": {
+    "ui": {
+      "critical": {
+        "job_link": "http://jenkins-csqa-000-staging.mist.pvt:8080/job/CLOUD_QA_POD_PLATFORM/job/VARIABLES_REGRESSION/job/VARIABLES_UI_CRITICAL/",
+        "job_name": "VARIABLES_UI_CRITICAL",
+        "last_duration": 30,
+        "last_executed": "epoch_time",
+        "test_status": {
+          "test_case_1": {
+            "name": "test_variables_ui_critical_case_1",
+            "status": "passed"
+          },
+          "test_case_2": {
+            "name": "test_variables_ui_critical_case_2",
+            "status": "failed"
+          }
+        }
+      },
+      "high": {
+        "job_link": "http://jenkins-csqa-000-staging.mist.pvt:8080/job/CLOUD_QA_POD_PLATFORM/job/VARIABLES_REGRESSION/job/VARIABLES_UI_HIGH/",
+        "job_name": "VARIABLES_UI_HIGH",
+        "last_executed": "epoch_time",
+        "last_duration": 30,
+        "test_status": {
+          "test_case_1": {
+            "name": "test_variables_ui_high_case_1",
+            "status": "passed"
+          },
+          "test_case_2": {
+            "name": "test_variables_ui_high_case_2",
+            "status": "failed"
+          }
+        }
+      }
+    },
+    "api": {
+      "critical": {
+        "job_link": "http://jenkins-csqa-000-staging.mist.pvt:8080/job/CLOUD_QA_POD_PLATFORM/job/VARIABLES_REGRESSION/job/VARIABLES_API_CRITICAL/",
+        "job_name": "VARIABLES_API_CRITICAL",
+        "last_executed": "epoch_time",
+        "last_duration": "",
+        "test_status": {
+          "test_case_1": {
+            "name": "test_variables_api_critical_case_1",
+            "status": "passed"
+          },
+          "test_case_2": {
+            "name": "test_variables_api_critical_case_2",
+            "status": "failed"
+          }
+        }
+      }
+    }
+  }
+}
