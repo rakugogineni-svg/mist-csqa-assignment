@@ -17,3 +17,5 @@ CONST_API_ORG_CLIENTS = "/orgs/{}/clients/search"
 CONST_API_ORG_INVENTORY = "/orgs/{}/inventory"
 CONST_API_SELF = "/self"
 
+CONST_API_ORG_SITES = "/orgs/{}/sites" 
+CONST_API_SITE_DETAILS = "/sites/{}"

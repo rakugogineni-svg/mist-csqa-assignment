@@ -1,0 +1,6 @@
+{
+ "name": "QA Coding Assignment Site", 
+ "address": "1 Global Way", 
+ "latlng": { "lat": 37.295833, "lng": -122.032946 }, 
+ "country_code": "US", "timezone": "America/Los_Angeles" 
+}
