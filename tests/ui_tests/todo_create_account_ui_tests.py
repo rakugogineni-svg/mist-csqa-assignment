@@ -1,5 +1,5 @@
 import pytest
-import logging
+import logging, time
 from datetime import datetime
 from libs.ui_libs.todo_create_account_libs import CreateAccountLibs
 from utils.ui_utils.ui_utils import UIUtils
@@ -42,7 +42,12 @@ class TestCreateAccount:
             first_name="QA",
             last_name="Automation",
             email=generate_test_email(),
-            password="TestPass@1234!"
+            password="TestPass@1234!",
+            company_name="Test Company",
+            address1="123 Test St",
+            address2="Suite 100"
         )
+
+        time.sleep(5)  # Wait for potential page load after form submission
 
         logging.info("Create Account button clicked successfully")
